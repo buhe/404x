@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
-options: "5003668e665aa7dc46b2f640221592136adaf7498112b3b52dabc492476f2127"
-build_start_time: [1669890427, 465708971]
-build_end_time: [1669890427, 674594879]
-inputs:
-  "/Users/guyanhua/code/github/404x/404x/ContentView.swift": [1669890419, 617343425]
-  "/Users/guyanhua/code/github/404x/404x/_04xApp.swift": [1669890419, 615720987]
