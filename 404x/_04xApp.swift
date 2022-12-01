@@ -1,17 +1,18 @@
 //
-//  _04xApp.swift
-//  404x
+//  _04App.swift
+//  404
 //
-//  Created by 顾艳华 on 2022/12/1.
+//  Created by 顾艳华 on 2022/11/27.
 //
 
 import SwiftUI
 
 @main
-struct _04xApp: App {
+struct _04App: App {
     var body: some Scene {
+        let vm = ViewModel()
         WindowGroup {
-            ContentView()
+            ContentView(vm: vm)
         }
     }
 }
