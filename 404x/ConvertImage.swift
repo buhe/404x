@@ -31,19 +31,23 @@ struct ConvertImage: View {
                            }
                        } label: {Image(systemName: "camera")}
                        .sheet(isPresented: $showCamera) {
+                            #if os(iOS)
                            ImagePicker(sourceType: .camera) {
                                                        seleted in
                                vm.model.rawImage = seleted
                                                    }
+                           #endif
                        }.padding(.trailing)
                        Button{
                            showPhotoLib = true
                        }label: {Image(systemName: "photo.artframe")}
                        .sheet(isPresented: $showPhotoLib) {
+                           #if os(iOS)
                            ImagePicker(sourceType: .photoLibrary) {
                                                        seleted in
                                vm.model.rawImage = seleted
                                                    }
+                           #endif
                        }.padding(.trailing)
                      Button{
                          vm.encodingImage()

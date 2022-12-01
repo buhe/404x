@@ -31,11 +31,11 @@ class ViewModel: ObservableObject {
             if let image = model.rawImage {
                 print("image is not null.")
                 DispatchQueue.global(qos: .userInteractive).async {
-                    let s = image.jpegData(compressionQuality: 1)?.base64EncodedString() ?? ""
-                    DispatchQueue.main.async {
-                        print("base64 is \(s)")
-                        self.model.encoding = s
-                    }
+//                    let s = image.jpegData(compressionQuality: 1)?.base64EncodedString() ?? ""
+//                    DispatchQueue.main.async {
+//                        print("base64 is \(s)")
+//                        self.model.encoding = s
+//                    }
                 }
                 
             }

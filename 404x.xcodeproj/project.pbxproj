@@ -17,7 +17,7 @@
 		3FE6B4652938BA0E00559FBE /* Mac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B4642938BA0E00559FBE /* Mac.swift */; platformFilters = (macos, ); };
 		3FE6B46C2938BA6700559FBE /* ConvertText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B4662938BA6700559FBE /* ConvertText.swift */; };
 		3FE6B46D2938BA6700559FBE /* ConvertImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B4672938BA6700559FBE /* ConvertImage.swift */; };
-		3FE6B46E2938BA6700559FBE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B4682938BA6700559FBE /* ImagePicker.swift */; };
+		3FE6B46E2938BA6700559FBE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B4682938BA6700559FBE /* ImagePicker.swift */; platformFilter = ios; };
 		3FE6B46F2938BA6700559FBE /* Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B4692938BA6700559FBE /* Ex.swift */; };
 		3FE6B4702938BA6700559FBE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B46A2938BA6700559FBE /* ViewModel.swift */; };
 		3FE6B4712938BA6700559FBE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE6B46B2938BA6700559FBE /* Model.swift */; };
